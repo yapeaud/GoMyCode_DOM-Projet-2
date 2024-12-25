@@ -1,0 +1,51 @@
+/* Style global pour le corps de la page */
+body {
+    font-family: Arial, sans-serif; /* Police par défaut avec une alternative sans-serif */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Supprime les marges intérieures */
+    display: flex; /* Utilisation de Flexbox pour aligner les éléments */
+    justify-content: center; /* Centre les éléments horizontalement */
+    align-items: center; /* Centre les éléments verticalement */
+    height: 100vh; /* Définit la hauteur à 100% de la fenêtre */
+    background-color: #f4f4f9; /* Couleur de fond douce pour un look épuré */
+}
+
+/* Conteneur principal centré */
+.container {
+    text-align: center; /* Centrer le texte */
+    margin-top: -50px; /* Décalage vers le haut pour un recentrage visuel */
+}
+
+/* Style pour les titres */
+h1 {
+    font-size: 2rem; /* Taille du texte moyenne pour le titre */
+    color: #333; /* Couleur sombre pour un bon contraste */
+}
+
+/* Boîte colorée qui change de couleur */
+#color-box {
+    width: 150px; /* Largeur de la boîte */
+    height: 150px; /* Hauteur de la boîte (carrée) */
+    background-color: #3498db; /* Couleur initiale : bleu clair */
+    margin: 20px auto; /* Espace autour de la boîte, centré automatiquement */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce pour un effet 3D */
+}
+
+/* Bouton pour changer la couleur */
+#change-color-btn {
+    background-color: #2ecc71; /* Couleur de fond initiale : vert */
+    color: white; /* Couleur du texte */
+    border: none; /* Supprime la bordure par défaut */
+    padding: 10px 20px; /* Espacement interne pour un bouton plus grand */
+    font-size: 1rem; /* Taille du texte adaptée */
+    cursor: pointer; /* Change le curseur en pointeur pour indiquer un élément interactif */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce pour un effet flottant */
+    transition: background-color 0.3s; /* Animation pour un effet fluide lors du survol */
+}
+
+/* Style lors du survol du bouton */
+#change-color-btn:hover {
+    background-color: #27ae60; /* Change la couleur en un vert légèrement plus foncé */
+}
